@@ -62,3 +62,5 @@ const lineConfig = {
     },
   }
   
+  const lineCtx = document.getElementById('line')
+window.myLine = new Chart(lineCtx, lineConfig)
