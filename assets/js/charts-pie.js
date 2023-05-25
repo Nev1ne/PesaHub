@@ -20,3 +20,14 @@ const pieConfig = {
     options: {
       responsive: true,
       cutoutPercentage: 80,
+
+      legend: {
+        display: false,
+      },
+    },
+  }
+  
+  // change this to the id of your chart element in HMTL
+  const pieCtx = document.getElementById('pie')
+  window.myPie = new Chart(pieCtx, pieConfig)
+  
