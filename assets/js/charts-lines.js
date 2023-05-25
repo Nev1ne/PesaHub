@@ -32,3 +32,33 @@ const lineConfig = {
     },
     options: {
       responsive: true,
+      legend: {
+        display: false,
+      },
+      tooltips: {
+        mode: 'index',
+        intersect: false,
+      },
+      hover: {
+        mode: 'nearest',
+        intersect: true,
+      },
+      scales: {
+        x: {
+          display: true,
+          scaleLabel: {
+            display: true,
+            labelString: 'Month',
+          },
+        },
+        y: {
+          display: true,
+          scaleLabel: {
+            display: true,
+            labelString: 'Value',
+          },
+        },
+      },
+    },
+  }
+  
